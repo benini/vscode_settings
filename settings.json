@@ -1,0 +1,25 @@
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "editor.minimap.enabled": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingOvertype": "never",
+    "editor.autoClosingQuotes": "never",
+
+    "macros": {
+        "cutLines": [
+            "expandLineSelection",
+            "editor.action.clipboardCutAction"
+        ]
+    },
+    "window.zoomLevel": 0,
+    "editor.autoSurround": "never",
+    "editor.rulers": [
+        80
+    ],
+    "catch2TestExplorer.userId": "a04e93b53e2d13bb8bf270c16b823151a3e83237",
+    "catch2TestExplorer.logSentry": "disable_1"
+}
