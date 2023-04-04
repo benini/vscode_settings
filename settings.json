@@ -1,26 +1,30 @@
 {
-    "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "[cpp]": {
-        "editor.defaultFormatter": "xaver.clang-format"
-    },
+    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
+    "dotnetAcquisitionExtension.enableTelemetry": false,
     "editor.minimap.enabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingOvertype": "never",
     "editor.autoClosingQuotes": "never",
-    "editor.find.autoFindInSelection": "always",
-
+    "editor.autoSurround": "never",
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.rulers": [
+        80
+    ],
+    "files.trimTrailingWhitespace": true,
+    "update.mode": "none",
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
     "macros": {
         "cutLines": [
             "expandLineSelection",
             "editor.action.clipboardCutAction"
         ]
     },
-    "window.zoomLevel": 0,
-    "editor.autoSurround": "never",
-    "editor.rulers": [
-        80
-    ],
-    "catch2TestExplorer.userId": "a04e93b53e2d13bb8bf270c16b823151a3e83237",
-    "catch2TestExplorer.logSentry": "disable_1"
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "cmake.configureOnEdit": false,
+    "cmake.configureOnOpen": false,
 }
