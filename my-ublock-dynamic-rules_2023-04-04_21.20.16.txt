@@ -1,0 +1,14 @@
+no-csp-reports: * true
+no-large-media: behind-the-scene false
+* * 3p-frame noop
+* 1158060716.rsc.cdn77.org * allow
+* cloudflare.net * allow
+* hwcdn.net * allow
+* meter-svc.nytimes.com * block
+behind-the-scene * * noop
+behind-the-scene * 1p-script noop
+behind-the-scene * 3p noop
+behind-the-scene * 3p-frame noop
+behind-the-scene * 3p-script noop
+behind-the-scene * image noop
+behind-the-scene * inline-script noop
