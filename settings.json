@@ -1,8 +1,17 @@
 {
+    "update.mode": "none",
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "telemetry.telemetryLevel": "off",
     "dotnetAcquisitionExtension.enableTelemetry": false,
+    "settingsSync.keybindings": false,
+    "settingsSync.settings": false,
+    "settingsSync.extensions": false,
+    "settingsSync.uiState": false,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.editor.languageDetection": false,
     "editor.minimap.enabled": false,
     "editor.autoClosingBrackets": "never",
     "editor.autoClosingOvertype": "never",
@@ -13,9 +22,6 @@
         80
     ],
     "files.trimTrailingWhitespace": true,
-    "update.mode": "none",
-    "extensions.autoUpdate": false,
-    "extensions.autoCheckUpdates": false,
     "macros": {
         "cutLines": [
             "expandLineSelection",
